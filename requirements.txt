@@ -1,0 +1,9 @@
+*   Upload this file to your GitHub repository along with your code.
+
+### 2. The Binder Setup (No JupyterLab Required)
+Binder is often associated with Jupyter, but it can run any command-line script. You can configure it to run your Python script directly.
+
+1.  **Create a Configuration File:** In your GitHub repository, create a file named `postBuild` (no file extension).
+2.  **Add the Run Command:** Inside that `postBuild` file, write the command that runs your game:
+    ```bash
+python parking.py
